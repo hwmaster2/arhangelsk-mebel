@@ -1,0 +1,4 @@
+Sitemap: http://www.arhangelsk-mebel.ru/sitemap.xml
+
+User-Agent: Yandex
+Host: www.arhangelsk-mebel.ru

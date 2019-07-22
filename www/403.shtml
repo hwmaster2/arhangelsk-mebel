@@ -1,0 +1,8 @@
+Эй, гражданинааааа! Ты туда - <u><!--#echo var="REQUEST_URI" --></u> - не ходи!<br>
+Ты сюда ходи - <a href="http://www.arhangelsk-mebel.ru">www.arhangelsk-mebel.ru</a>
+<br><br>
+Ответ сервера:<br>
+You don't have permission to access <!--#echo var="REQUEST_URI" --> on this server.
+<!--
+
+-->

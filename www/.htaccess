@@ -1,0 +1,12 @@
+<Files site_init.php>
+Deny from all
+</Files>
+
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^arhangelsk-mebel\.ru
+RewriteRule ^(.*)$ http://www.arhangelsk-mebel.ru/$1 [R=permanent,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.arhangelsk-mebel.ru/ [R=301,L]
