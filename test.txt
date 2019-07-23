@@ -1,6 +1,2 @@
 test
-<<<<<<< HEAD
 test2
-=======
-another test
->>>>>>> 7390c68966564fa10115b240e1229256dcddb175
